@@ -1,14 +1,18 @@
-T_PAYLOAD = [
-	  (
-	       {"repos_url": "https://api.github.com/orgs/google/repos"},
-	           [
-		         {
-			     me": "episodes.dart",
-			         "full_name": "google/episodes.dart",
-			             "private": False,
-			            "owner": {
-		                 "login": "google",
-	               "id": 1342004,
+#!/usr/bin/env python3
+
+TEST_PAYLOAD = [
+  (
+    {"repos_url": "https://api.github.com/orgs/google/repos"},
+    [
+      {
+        "id": 7697149,
+        "node_id": "MDEwOlJlcG9zaXRvcnk3Njk3MTQ5",
+        "name": "episodes.dart",
+        "full_name": "google/episodes.dart",
+        "private": False,
+        "owner": {
+          "login": "google",
+          "id": 1342004,
           "node_id": "MDEyOk9yZ2FuaXphdGlvbjEzNDIwMDQ=",
           "avatar_url": "https://avatars1.githubusercontent.com/u/1342004?v=4",
           "gravatar_id": "",
@@ -25,10 +29,10 @@ T_PAYLOAD = [
           "received_events_url": "https://api.github.com/users/google/received_events",
           "type": "Organization",
           "site_admin": False
-	        },
-			          "html_url": "https://github.com/google/episodes.dart",
-		              "description": "A framework for timing performance of web apps.",
-	            "fork": False,
+        },
+        "html_url": "https://github.com/google/episodes.dart",
+        "description": "A framework for timing performance of web apps.",
+        "fork": False,
         "url": "https://api.github.com/repos/google/episodes.dart",
         "forks_url": "https://api.github.com/repos/google/episodes.dart/forks",
         "keys_url": "https://api.github.com/repos/google/episodes.dart/keys{/key_id}",
@@ -89,34 +93,34 @@ T_PAYLOAD = [
         "disabled": False,
         "open_issues_count": 0,
         "license": {
-	          "key": "bsd-3-clause",
-	            "name": "BSD 3-Clause \"New\" or \"Revised\" License",
-	            "spdx_id": "BSD-3-Clause",
-	          "url": "https://api.github.com/licenses/bsd-3-clause",
-                "node_id": "MDc6TGljZW5zZTU="
-              },
+          "key": "bsd-3-clause",
+          "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+          "spdx_id": "BSD-3-Clause",
+          "url": "https://api.github.com/licenses/bsd-3-clause",
+          "node_id": "MDc6TGljZW5zZTU="
+        },
         "forks": 22,
         "open_issues": 0,
         "watchers": 12,
         "default_branch": "master",
         "permissions": {
-	          "admin": False,
-	            "push": False,
-	            "pull": True
-		        }
-		       },
-	        {
-	         "id": 7776515,
-         "node_id": "MDEwOlJlcG9zaXRvcnk3Nzc2NTE1",
+          "admin": False,
+          "push": False,
+          "pull": True
+        }
+      },
+      {
+        "id": 7776515,
+        "node_id": "MDEwOlJlcG9zaXRvcnk3Nzc2NTE1",
         "name": "cpp-netlib",
         "full_name": "google/cpp-netlib",
         "private": False,
         "owner": {
-	          "login": "google",
-	            "id": 1342004,
-	            "node_id": "MDEyOk9yZ2FuaXphdGlvbjEzNDIwMDQ=",
-	          "avatar_url": "https://avatars1.githubusercontent.com/u/1342004?v=4",
-                "gravatar_id": "",
+          "login": "google",
+          "id": 1342004,
+          "node_id": "MDEyOk9yZ2FuaXphdGlvbjEzNDIwMDQ=",
+          "avatar_url": "https://avatars1.githubusercontent.com/u/1342004?v=4",
+          "gravatar_id": "",
           "url": "https://api.github.com/users/google",
           "html_url": "https://github.com/google",
           "followers_url": "https://api.github.com/users/google/followers",
@@ -130,7 +134,7 @@ T_PAYLOAD = [
           "received_events_url": "https://api.github.com/users/google/received_events",
           "type": "Organization",
           "site_admin": False
-	        },
+        },
         "html_url": "https://github.com/google/cpp-netlib",
         "description": "The C++ Network Library Project -- header-only, cross-platform, standards compliant networking library.",
         "fork": True,
@@ -194,34 +198,34 @@ T_PAYLOAD = [
         "disabled": False,
         "open_issues_count": 0,
         "license": {
-	          "key": "bsl-1.0",
-	            "name": "Boost Software License 1.0",
-	            "spdx_id": "BSL-1.0",
-	          "url": "https://api.github.com/licenses/bsl-1.0",
-                "node_id": "MDc6TGljZW5zZTI4"
-              },
+          "key": "bsl-1.0",
+          "name": "Boost Software License 1.0",
+          "spdx_id": "BSL-1.0",
+          "url": "https://api.github.com/licenses/bsl-1.0",
+          "node_id": "MDc6TGljZW5zZTI4"
+        },
         "forks": 59,
         "open_issues": 0,
         "watchers": 292,
         "default_branch": "master",
         "permissions": {
-	          "admin": False,
-	            "push": False,
-	            "pull": True
-		        }
-           },
+          "admin": False,
+          "push": False,
+          "pull": True
+        }
+      },
       {
-           "id": 7968417,
+        "id": 7968417,
         "node_id": "MDEwOlJlcG9zaXRvcnk3OTY4NDE3",
         "name": "dagger",
         "full_name": "google/dagger",
         "private": False,
         "owner": {
-	          "login": "google",
-	            "id": 1342004,
-	            "node_id": "MDEyOk9yZ2FuaXphdGlvbjEzNDIwMDQ=",
-	          "avatar_url": "https://avatars1.githubusercontent.com/u/1342004?v=4",
-                "gravatar_id": "",
+          "login": "google",
+          "id": 1342004,
+          "node_id": "MDEyOk9yZ2FuaXphdGlvbjEzNDIwMDQ=",
+          "avatar_url": "https://avatars1.githubusercontent.com/u/1342004?v=4",
+          "gravatar_id": "",
           "url": "https://api.github.com/users/google",
           "html_url": "https://github.com/google",
           "followers_url": "https://api.github.com/users/google/followers",
@@ -235,7 +239,7 @@ T_PAYLOAD = [
           "received_events_url": "https://api.github.com/users/google/received_events",
           "type": "Organization",
           "site_admin": False
-	        },
+        },
         "html_url": "https://github.com/google/dagger",
         "description": "A fast dependency injector for Android and Java.",
         "fork": True,
@@ -299,30 +303,30 @@ T_PAYLOAD = [
         "disabled": False,
         "open_issues_count": 148,
         "license": {
-	          "key": "apache-2.0",
-	            "name": "Apache License 2.0",
-	            "spdx_id": "Apache-2.0",
-	          "url": "https://api.github.com/licenses/apache-2.0",
-                "node_id": "MDc6TGljZW5zZTI="
-              },
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
         "forks": 1741,
         "open_issues": 148,
         "watchers": 14492,
         "default_branch": "master",
         "permissions": {
-	          "admin": False,
-	            "push": False,
-	            "pull": True
-		        }
+          "admin": False,
+          "push": False,
+          "pull": True
+        }
       },
       {
-	        "id": 8165161,
-	          "node_id": "MDEwOlJlcG9zaXRvcnk4MTY1MTYx",
-	          "name": "ios-webkit-debug-proxy",
-	        "full_name": "google/ios-webkit-debug-proxy",
-              "private": False,
+        "id": 8165161,
+        "node_id": "MDEwOlJlcG9zaXRvcnk4MTY1MTYx",
+        "name": "ios-webkit-debug-proxy",
+        "full_name": "google/ios-webkit-debug-proxy",
+        "private": False,
         "owner": {
-            "login": "google",
+          "login": "google",
           "id": 1342004,
           "node_id": "MDEyOk9yZ2FuaXphdGlvbjEzNDIwMDQ=",
           "avatar_url": "https://avatars1.githubusercontent.com/u/1342004?v=4",
@@ -340,7 +344,7 @@ T_PAYLOAD = [
           "received_events_url": "https://api.github.com/users/google/received_events",
           "type": "Organization",
           "site_admin": False
-	        },
+        },
         "html_url": "https://github.com/google/ios-webkit-debug-proxy",
         "description": "A DevTools proxy (Chrome Remote Debugging Protocol) for iOS devices (Safari Remote Web Inspector).",
         "fork": False,
@@ -404,34 +408,34 @@ T_PAYLOAD = [
         "disabled": False,
         "open_issues_count": 24,
         "license": {
-	          "key": "other",
-	            "name": "Other",
-	            "spdx_id": "NOASSERTION",
-	          "url": None,
-                "node_id": "MDc6TGljZW5zZTA="
-              },
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": None,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
         "forks": 395,
         "open_issues": 24,
         "watchers": 4630,
         "default_branch": "master",
         "permissions": {
-	          "admin": False,
-	            "push": False,
-	            "pull": True
-		        }
-          },
+          "admin": False,
+          "push": False,
+          "pull": True
+        }
+      },
       {
-            "id": 8459994,
+        "id": 8459994,
         "node_id": "MDEwOlJlcG9zaXRvcnk4NDU5OTk0",
         "name": "google.github.io",
         "full_name": "google/google.github.io",
         "private": False,
         "owner": {
-	          "login": "google",
-	            "id": 1342004,
-	            "node_id": "MDEyOk9yZ2FuaXphdGlvbjEzNDIwMDQ=",
-	          "avatar_url": "https://avatars1.githubusercontent.com/u/1342004?v=4",
-                "gravatar_id": "",
+          "login": "google",
+          "id": 1342004,
+          "node_id": "MDEyOk9yZ2FuaXphdGlvbjEzNDIwMDQ=",
+          "avatar_url": "https://avatars1.githubusercontent.com/u/1342004?v=4",
+          "gravatar_id": "",
           "url": "https://api.github.com/users/google",
           "html_url": "https://github.com/google",
           "followers_url": "https://api.github.com/users/google/followers",
@@ -445,7 +449,7 @@ T_PAYLOAD = [
           "received_events_url": "https://api.github.com/users/google/received_events",
           "type": "Organization",
           "site_admin": False
-	        },
+        },
         "html_url": "https://github.com/google/google.github.io",
         "description": None,
         "fork": False,
@@ -514,19 +518,19 @@ T_PAYLOAD = [
         "watchers": 38,
         "default_branch": "master",
         "permissions": {
-	          "admin": False,
-	            "push": False,
-	            "pull": True
-		        }
+          "admin": False,
+          "push": False,
+          "pull": True
+        }
       },
       {
-	        "id": 8566972,
-	          "node_id": "MDEwOlJlcG9zaXRvcnk4NTY2OTcy",
-	          "name": "kratu",
-	        "full_name": "google/kratu",
-              "private": False,
+        "id": 8566972,
+        "node_id": "MDEwOlJlcG9zaXRvcnk4NTY2OTcy",
+        "name": "kratu",
+        "full_name": "google/kratu",
+        "private": False,
         "owner": {
-            "login": "google",
+          "login": "google",
           "id": 1342004,
           "node_id": "MDEyOk9yZ2FuaXphdGlvbjEzNDIwMDQ=",
           "avatar_url": "https://avatars1.githubusercontent.com/u/1342004?v=4",
@@ -544,7 +548,7 @@ T_PAYLOAD = [
           "received_events_url": "https://api.github.com/users/google/received_events",
           "type": "Organization",
           "site_admin": False
-	        },
+        },
         "html_url": "https://github.com/google/kratu",
         "description": None,
         "fork": False,
@@ -608,34 +612,34 @@ T_PAYLOAD = [
         "disabled": False,
         "open_issues_count": 0,
         "license": {
-	          "key": "apache-2.0",
-	            "name": "Apache License 2.0",
-	            "spdx_id": "Apache-2.0",
-	          "url": "https://api.github.com/licenses/apache-2.0",
-                "node_id": "MDc6TGljZW5zZTI="
-              },
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
         "forks": 32,
         "open_issues": 0,
         "watchers": 280,
         "default_branch": "master",
         "permissions": {
-	          "admin": False,
-	            "push": False,
-	            "pull": True
-		        }
-          },
+          "admin": False,
+          "push": False,
+          "pull": True
+        }
+      },
       {
-            "id": 8858648,
+        "id": 8858648,
         "node_id": "MDEwOlJlcG9zaXRvcnk4ODU4NjQ4",
         "name": "build-debian-cloud",
         "full_name": "google/build-debian-cloud",
         "private": False,
         "owner": {
-	          "login": "google",
-	            "id": 1342004,
-	            "node_id": "MDEyOk9yZ2FuaXphdGlvbjEzNDIwMDQ=",
-	          "avatar_url": "https://avatars1.githubusercontent.com/u/1342004?v=4",
-                "gravatar_id": "",
+          "login": "google",
+          "id": 1342004,
+          "node_id": "MDEyOk9yZ2FuaXphdGlvbjEzNDIwMDQ=",
+          "avatar_url": "https://avatars1.githubusercontent.com/u/1342004?v=4",
+          "gravatar_id": "",
           "url": "https://api.github.com/users/google",
           "html_url": "https://github.com/google",
           "followers_url": "https://api.github.com/users/google/followers",
@@ -649,7 +653,7 @@ T_PAYLOAD = [
           "received_events_url": "https://api.github.com/users/google/received_events",
           "type": "Organization",
           "site_admin": False
-	        },
+        },
         "html_url": "https://github.com/google/build-debian-cloud",
         "description": "Script to create Debian Squeeze & Wheezy Amazon Machine Images (AMIs) and Google Compute Engine images",
         "fork": True,
@@ -713,30 +717,30 @@ T_PAYLOAD = [
         "disabled": False,
         "open_issues_count": 5,
         "license": {
-	          "key": "other",
-	            "name": "Other",
-	            "spdx_id": "NOASSERTION",
-	          "url": None,
-                "node_id": "MDc6TGljZW5zZTA="
-              },
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": None,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
         "forks": 22,
         "open_issues": 5,
         "watchers": 32,
         "default_branch": "master",
         "permissions": {
-	          "admin": False,
-	            "push": False,
-	            "pull": True
-		        }
+          "admin": False,
+          "push": False,
+          "pull": True
+        }
       },
       {
-	        "id": 9060347,
-	          "node_id": "MDEwOlJlcG9zaXRvcnk5MDYwMzQ3",
-	          "name": "traceur-compiler",
-	        "full_name": "google/traceur-compiler",
-              "private": False,
+        "id": 9060347,
+        "node_id": "MDEwOlJlcG9zaXRvcnk5MDYwMzQ3",
+        "name": "traceur-compiler",
+        "full_name": "google/traceur-compiler",
+        "private": False,
         "owner": {
-            "login": "google",
+          "login": "google",
           "id": 1342004,
           "node_id": "MDEyOk9yZ2FuaXphdGlvbjEzNDIwMDQ=",
           "avatar_url": "https://avatars1.githubusercontent.com/u/1342004?v=4",
@@ -754,7 +758,7 @@ T_PAYLOAD = [
           "received_events_url": "https://api.github.com/users/google/received_events",
           "type": "Organization",
           "site_admin": False
-	        },
+        },
         "html_url": "https://github.com/google/traceur-compiler",
         "description": "Traceur is a JavaScript.next-to-JavaScript-of-today compiler",
         "fork": False,
@@ -818,34 +822,34 @@ T_PAYLOAD = [
         "disabled": False,
         "open_issues_count": 296,
         "license": {
-	          "key": "apache-2.0",
-	            "name": "Apache License 2.0",
-	            "spdx_id": "Apache-2.0",
-	          "url": "https://api.github.com/licenses/apache-2.0",
-                "node_id": "MDc6TGljZW5zZTI="
-              },
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
         "forks": 604,
         "open_issues": 296,
         "watchers": 8033,
         "default_branch": "master",
         "permissions": {
-	          "admin": False,
-	            "push": False,
-	            "pull": True
-		        }
-          },
+          "admin": False,
+          "push": False,
+          "pull": True
+        }
+      },
       {
-            "id": 9065917,
+        "id": 9065917,
         "node_id": "MDEwOlJlcG9zaXRvcnk5MDY1OTE3",
         "name": "firmata.py",
         "full_name": "google/firmata.py",
         "private": False,
         "owner": {
-	          "login": "google",
-	            "id": 1342004,
-	            "node_id": "MDEyOk9yZ2FuaXphdGlvbjEzNDIwMDQ=",
-	          "avatar_url": "https://avatars1.githubusercontent.com/u/1342004?v=4",
-                "gravatar_id": "",
+          "login": "google",
+          "id": 1342004,
+          "node_id": "MDEyOk9yZ2FuaXphdGlvbjEzNDIwMDQ=",
+          "avatar_url": "https://avatars1.githubusercontent.com/u/1342004?v=4",
+          "gravatar_id": "",
           "url": "https://api.github.com/users/google",
           "html_url": "https://github.com/google",
           "followers_url": "https://api.github.com/users/google/followers",
@@ -859,7 +863,7 @@ T_PAYLOAD = [
           "received_events_url": "https://api.github.com/users/google/received_events",
           "type": "Organization",
           "site_admin": False
-	        },
+        },
         "html_url": "https://github.com/google/firmata.py",
         "description": None,
         "fork": False,
@@ -923,25 +927,24 @@ T_PAYLOAD = [
         "disabled": False,
         "open_issues_count": 0,
         "license": {
-	          "key": "apache-2.0",
-	            "name": "Apache License 2.0",
-	            "spdx_id": "Apache-2.0",
-	          "url": "https://api.github.com/licenses/apache-2.0",
-                "node_id": "MDc6TGljZW5zZTI="
-              },
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
         "forks": 15,
         "open_issues": 0,
         "watchers": 15,
         "default_branch": "master",
         "permissions": {
-	          "admin": False,
-	            "push": False,
-	            "pull": True
-		        }
+          "admin": False,
+          "push": False,
+          "pull": True
+        }
       }
     ],
-        ['episodes.dart', 'cpp-netlib', 'dagger', 'ios-webkit-debug-proxy', 'google.github.io', 'kratu', 'build-debian-cloud', 'traceur-compiler', 'firmata.py'],
-	    ['dagger', 'kratu', 'traceur-compiler', 'firmata.py'],
-	      )
-	      ]"id": 7697149,
-				         "node_id": "MDEwOlJlcG9zaXRvcnk3N
+    ['episodes.dart', 'cpp-netlib', 'dagger', 'ios-webkit-debug-proxy', 'google.github.io', 'kratu', 'build-debian-cloud', 'traceur-compiler', 'firmata.py'],
+    ['dagger', 'kratu', 'traceur-compiler', 'firmata.py'],
+  )
+]

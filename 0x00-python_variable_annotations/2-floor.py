@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-'''Task 2's module.
+''' Description:takes a float n as argument and returns the floor of the float
+    Parameter: n: float
 '''
 
 
-def floor(a: float) -> int:
-    '''Computes the floor of a floating-point number.
-        '''
-	    return int(a)
+def floor(n: float) -> int:
+    ''' Return largest int value less than or equal to n. '''
+    return int(n) if n >= 0 else int(n) - 1
